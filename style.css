@@ -1,0 +1,60 @@
+@font-face {
+    font-family: mono;
+    src: url(/font/MonumentExtended-Ultrabold.otf);
+}
+
+body {
+    font-family: mono;
+    background-image: url("Pictures/background.jpeg");
+}
+
+.rotate {
+  animation: rotation 3s infinite;
+}
+
+.list:hover {
+  color: #fd6e2c !important;
+}
+
+.fa-thumbs-up:hover {
+  color: white !important;
+}
+
+.fa-share:hover {
+  color: white !important;
+}
+
+.fa-solid:hover {
+  color: white !important;
+}
+
+.fa-envelope:hover {
+  color: white !important;
+}
+
+.fa-twitter:hover {
+  color: white !important;
+}
+
+.fa-discord:hover {
+  color: white !important;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.bounce2 {
+  animation: bounce2 2s ease infinite;
+}
+@keyframes bounce2 {
+	0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+	40% {transform: translateY(-15px);}
+	60% {transform: translateY(-15px);}
+}
+
