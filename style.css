@@ -58,3 +58,22 @@ body {
 	60% {transform: translateY(-15px);}
 }
 
+.articlep {
+  font-family: perpeta;
+  font-size: 20px;
+}
+
+ .articlepp {
+  font-family: perpeta;
+  font-size: 18px;
+}
+.name {
+  font-family: Regular;
+
+}
+.des {
+  font-family: perpeta;
+}
+.click {
+  font-family: mono;
+}
