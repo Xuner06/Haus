@@ -13,9 +13,18 @@
   src: url(/font/MonumentExtended-Regular.otf);
 }
 
+*{
+  padding: 0;
+  margin: 0;
+}
+
 body {
     font-family: mono;
     background-image: url("Pictures/background.jpeg");
+   
+}
+.bg{ 
+  background-color: #0c0c0c;
 }
 
 .list:hover {
@@ -50,3 +59,34 @@ body {
   font-family: Regular;
 }
 
+.articlep {
+  font-family: perpeta;
+  font-size: 20px;
+}
+
+ .articlepp {
+  font-family: perpeta;
+  font-size: 18px;
+}
+.name {
+  font-family: Regular;
+
+}
+.des {
+  font-family: perpeta;
+}
+.click {
+  font-family: mono;
+}
+
+.text-lg{
+  font-size: 50px;
+  
+}
+.text-sm {
+  font-size: 14px; /* Custom font size for small screens */
+}
+
+.text-md {
+  font-size: 18px; /* Custom font size for medium-sized screens */
+}

@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+    background-image: url('/Pictures/coming_soon.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
